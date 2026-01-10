@@ -5,3 +5,8 @@ def test_get_users():
 
     assert response.status_code == 200
     assert len(response.json()) > 0
+
+def test_invalid_endpoint():
+    response = requests.get("https://jsonplaceholder.typicode.com/invalidendpoint")
+    assert response.status_code == 404
+
