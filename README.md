@@ -1,2 +1,3 @@
-# qa-automation-samples
-Sample QA automation projects using Python, Selenium, API testing, and basic load testing.
+## Development Notes
+- Added initial QA automation structure
+- Working in DEV branch before merging to main
