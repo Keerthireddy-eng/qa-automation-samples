@@ -1,5 +1,5 @@
 import pytest
-
+pytestmark = pytest.mark.usefixtures("setup_browser")
 @pytest.mark.regression
 def test_homepage_loads():
     """
